@@ -12,6 +12,8 @@ sudo apt install -y git && git clone https://github.com/Onndigital/instalador_do
 
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
 
+https://github.com/Onndigital/consigvip.git
+
 
 
  
