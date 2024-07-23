@@ -12,6 +12,8 @@ sudo apt install -y git && git clone https://github.com/Onndigital/instalador_do
 
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
 
+docker run --name pluszap -e POSTGRES_USER=pluszap -e POSTGRES_PASSWORD=pluszap -p 5432:5432 -v /data:/var/lib/postgresql/data3 -d postgres
+
 
 
  
