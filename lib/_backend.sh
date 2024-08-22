@@ -181,20 +181,20 @@ EOF
 # Arguments:
 #   None
 #######################################
-backend_db_seed() {
-  print_banner
-  printf "${WHITE} 💻 Executando db:seed...${GRAY_LIGHT}"
-  printf "\n\n"
+#backend_db_seed() {
+  #print_banner
+  #printf "${WHITE} 💻 Executando db:seed...${GRAY_LIGHT}"
+  #printf "\n\n"
 
-  sleep 2
+  #sleep 2
 
-  sudo su - deploy <<EOF
-  cd /home/deploy/${instancia_add}/backend
-  npx sequelize db:seed:all
-EOF
+  #sudo su - deploy <<EOF
+  #cd /home/deploy/${instancia_add}/backend
+  #npx sequelize db:seed:all
+#EOF
 
-  sleep 2
-}
+  #sleep 2
+#}
 
 #######################################
 # starts backend using pm2 in 
